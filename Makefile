@@ -6,3 +6,7 @@ run:
 
 logistic:
 	docker run -it --rm --gpus all -u $(id -u):$(id -g) -v ./:/usr/src python-unsupervised-learning python logistic.py
+
+random-forest:
+	docker run -it --rm --gpus all -u $(id -u):$(id -g) -v ./:/usr/src python-unsupervised-learning python random-forest.py
+
