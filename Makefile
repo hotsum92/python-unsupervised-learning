@@ -1,5 +1,5 @@
-diamonds.csv:
-	curl -O https://raw.githubusercontent.com/PacktPublishing/Hands-On-Predictive-Analytics-with-Python/master/Data/diamonds.csv
+credit-card.csv:
+	curl -o credit-card.csv https://github.com/aapatel09/handson-unsupervised-learning/raw/master/datasets/credit_card_data/correlationMatrix.csv
 
 build:
 	docker build -t python-unsupervised-learning .
