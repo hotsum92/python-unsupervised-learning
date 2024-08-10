@@ -13,3 +13,4 @@ lightgbm
 fastcluster
 hdbscan
 tslearn
+scipy
