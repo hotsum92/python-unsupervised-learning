@@ -1,8 +1,13 @@
 import os
 import pandas as pd
+import argparse
 
-current_path = os.getcwd()
-file = os.path.join(current_path, 'credit-card.csv')
+parser = argparse.ArgumentParser()
+parser.add_argument('csv')
+args = parser.parse_args()
+
+file = args.csv
+
 data = pd.read_csv(file)
 
 print(data.describe())
