@@ -1,4 +1,5 @@
 *.csv
 *.sav
 *.png
+*.gz
 __pycache__/
