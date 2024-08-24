@@ -12,3 +12,6 @@ random-forest:
 
 light-gbm:
 	docker run -it --rm --gpus all -u $(id -u):$(id -g) -v ./:/usr/src python-unsupervised-learning python light-gbm.py
+
+mnist:
+	docker run -it --rm --gpus all -u $(id -u):$(id -g) -v ./:/usr/src python-unsupervised-learning python mnist.py
